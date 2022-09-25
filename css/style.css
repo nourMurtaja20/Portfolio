@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+header {
+  display: flex;
+  height: 400px;
+  background-color: gray;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  display: flex;
+  flex-direction: row;
+}
+section > aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+  width: 400px;
+}
+section > aside > span:nth-child(2) {
+  color: #707070;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+section > aside > span:nth-child(3) {
+  color: #707070;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+section > aside > span:nth-child(4) {
+  margin-bottom: 5px;
+}
+section > aside > span:nth-child(4),
+span:nth-child(5) {
+  color: #354259;
+  font-size: 15px;
+}
+section > article {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 60px 60px 70px;
+}
+article > span {
+  font-weight: bold;
+  font-size: 40px;
+  color: #707070;
+}
+hr {
+  width: 100%;
+}
+#pargraph {
+  padding: 20px 0px 40px 0px;
+}
+article > p {
+  color: #707070;
+  font-size: 20px;
+  line-height: 35px;
+}
+section > article > article {
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+  padding: 35px 0px;
+}
+p {
+  text-align: justify;
+  margin: 0px;
+}
+#aside-avater {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 75px;
+  box-shadow: 0px 3px 6px rgb(0, 0, 0, 0.16);
+  margin-bottom: 20px;
+}
